@@ -42,4 +42,38 @@
 //     window.document.write('Student received an D');
 // } else {
 //     window.document.write('Student failed the course');
-// } 
+// // } 
+
+// let discount = 0;
+// let total = window.prompt("Enter cart total:");
+// let type = window.prompt("Enter customer type: (r/w)");
+// if (type === 'r') {
+//     if (total > 500) {
+//         discount = .1;
+//     } else if (total > 100) {
+//         discount = .05;
+//     }
+// } else if (type === 'w') {
+//     if (total > 500) {
+//         discount = .2;
+//     } else if (total > 100) {
+//         discount = .1;
+//     }
+// } else {
+//     discount = 0;
+// }
+
+// window.document.write("Customer type: ", type, '<br>');
+// window.document.write()
+
+let grade = window.document.prompt("Enter a student's grade");
+switch (grade) {
+    case 'A':
+        window.document.write("You got an A!");
+        break;
+    case 'B':
+        window.document.write("You got an B!");
+        break;
+    default:
+        window.document.write("Your credits won't arcticulate");
+}
